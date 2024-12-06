@@ -787,7 +787,7 @@ body {
    * HEADER
    */
 
-  .header .logo img { width: 160px; }
+  .header .logo img { width: 80px; }
 
 
 
@@ -1070,8 +1070,9 @@ body {
   .hero-banner-bg { transform: scale(1.2); }
 
   .hero-banner .w-100 {
-    max-width: max-content;
+    max-width: 60%;
     margin-inline: auto;
+   transform: translateY(65px);
   }
 
 
@@ -1099,6 +1100,8 @@ body {
 
   .footer-top .container { grid-template-columns: 1f 0.5fr 0.5fr 1fr; }
 
-  .footer .logo img { width: 205px; }
+  .footer .logo img { width: 100px; }
 
 }
+
+
